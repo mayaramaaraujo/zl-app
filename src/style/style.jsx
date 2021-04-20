@@ -21,14 +21,10 @@ export const NavbarContainer = styled.div `
   background-color: ${blackColor};
 `
 
-export const NavBarListItem = styled.a `
+export const NavBarListItem = styled.div `
   text-transform: uppercase;
-  text-decoration: none;
   color: ${whiteColor};
- 
-  :active ::after {
-    text-decoration: none;
-  }
+  cursor: pointer;
 
   :hover {
     color: ${orangeColor};
